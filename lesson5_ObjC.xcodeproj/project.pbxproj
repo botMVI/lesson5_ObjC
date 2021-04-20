@@ -14,6 +14,7 @@
 		D5C0F1B5262F02190060964A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5C0F1B4262F02190060964A /* Assets.xcassets */; };
 		D5C0F1B8262F02190060964A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5C0F1B6262F02190060964A /* LaunchScreen.storyboard */; };
 		D5C0F1BB262F02190060964A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D5C0F1BA262F02190060964A /* main.m */; };
+		D5C0F1CD262F2DB70060964A /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = D5C0F1CC262F2DB70060964A /* Calculator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		D5C0F1B7262F02190060964A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D5C0F1B9262F02190060964A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D5C0F1BA262F02190060964A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D5C0F1CB262F2DB70060964A /* Calculator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Calculator.h; sourceTree = "<group>"; };
+		D5C0F1CC262F2DB70060964A /* Calculator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Calculator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +64,7 @@
 		D5C0F1A7262F020B0060964A /* lesson5_ObjC */ = {
 			isa = PBXGroup;
 			children = (
+				D5C0F1CA262F2DA00060964A /* Calculator */,
 				D5C0F1A8262F020B0060964A /* AppDelegate.h */,
 				D5C0F1A9262F020B0060964A /* AppDelegate.m */,
 				D5C0F1AB262F020B0060964A /* SceneDelegate.h */,
@@ -74,6 +78,15 @@
 				D5C0F1BA262F02190060964A /* main.m */,
 			);
 			path = lesson5_ObjC;
+			sourceTree = "<group>";
+		};
+		D5C0F1CA262F2DA00060964A /* Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				D5C0F1CB262F2DB70060964A /* Calculator.h */,
+				D5C0F1CC262F2DB70060964A /* Calculator.m */,
+			);
+			path = Calculator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,6 +162,7 @@
 				D5C0F1AA262F020B0060964A /* AppDelegate.m in Sources */,
 				D5C0F1BB262F02190060964A /* main.m in Sources */,
 				D5C0F1AD262F020B0060964A /* SceneDelegate.m in Sources */,
+				D5C0F1CD262F2DB70060964A /* Calculator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,6 +305,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4P2H6D9L7L;
 				INFOPLIST_FILE = lesson5_ObjC/Info.plist;
@@ -309,6 +324,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4P2H6D9L7L;
 				INFOPLIST_FILE = lesson5_ObjC/Info.plist;
