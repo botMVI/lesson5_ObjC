@@ -14,13 +14,16 @@
 		D5C0F1B5262F02190060964A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5C0F1B4262F02190060964A /* Assets.xcassets */; };
 		D5C0F1B8262F02190060964A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5C0F1B6262F02190060964A /* LaunchScreen.storyboard */; };
 		D5C0F1BB262F02190060964A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D5C0F1BA262F02190060964A /* main.m */; };
-		D5C0F1CD262F2DB70060964A /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = D5C0F1CC262F2DB70060964A /* Calculator.m */; };
+		D5C0F1D6263018720060964A /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = D5C0F1D5263018720060964A /* Calculator.m */; };
+		D5C0F1DF263028570060964A /* Eagle.m in Sources */ = {isa = PBXBuildFile; fileRef = D5C0F1DE263028570060964A /* Eagle.m */; };
+		D5C0F1E3263028610060964A /* Dove.m in Sources */ = {isa = PBXBuildFile; fileRef = D5C0F1E2263028610060964A /* Dove.m */; };
+		D5C0F1E926302AB80060964A /* Flock.m in Sources */ = {isa = PBXBuildFile; fileRef = D5C0F1E826302AB80060964A /* Flock.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D5C0F1A5262F020B0060964A /* lesson5_ObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lesson5_ObjC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5C0F1A8262F020B0060964A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		D5C0F1A9262F020B0060964A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D5C0F1A9262F020B0060964A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../AppDelegate.m; sourceTree = "<group>"; };
 		D5C0F1AB262F020B0060964A /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		D5C0F1AC262F020B0060964A /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		D5C0F1AE262F020B0060964A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -30,8 +33,15 @@
 		D5C0F1B7262F02190060964A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D5C0F1B9262F02190060964A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D5C0F1BA262F02190060964A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D5C0F1CB262F2DB70060964A /* Calculator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Calculator.h; sourceTree = "<group>"; };
-		D5C0F1CC262F2DB70060964A /* Calculator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Calculator.m; sourceTree = "<group>"; };
+		D5C0F1D4263018720060964A /* Calculator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Calculator.h; sourceTree = "<group>"; };
+		D5C0F1D5263018720060964A /* Calculator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Calculator.m; sourceTree = "<group>"; };
+		D5C0F1DD263028570060964A /* Eagle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Eagle.h; sourceTree = "<group>"; };
+		D5C0F1DE263028570060964A /* Eagle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Eagle.m; sourceTree = "<group>"; };
+		D5C0F1E1263028610060964A /* Dove.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dove.h; sourceTree = "<group>"; };
+		D5C0F1E2263028610060964A /* Dove.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dove.m; sourceTree = "<group>"; };
+		D5C0F1E626302A6C0060964A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D5C0F1E726302AB80060964A /* Flock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Flock.h; sourceTree = "<group>"; };
+		D5C0F1E826302AB80060964A /* Flock.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Flock.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,29 +74,76 @@
 		D5C0F1A7262F020B0060964A /* lesson5_ObjC */ = {
 			isa = PBXGroup;
 			children = (
-				D5C0F1CA262F2DA00060964A /* Calculator */,
-				D5C0F1A8262F020B0060964A /* AppDelegate.h */,
-				D5C0F1A9262F020B0060964A /* AppDelegate.m */,
-				D5C0F1AB262F020B0060964A /* SceneDelegate.h */,
-				D5C0F1AC262F020B0060964A /* SceneDelegate.m */,
+				D5C0F1D9263027E20060964A /* FlockOfBirds */,
+				D5C0F1D3263017B60060964A /* Calculator */,
 				D5C0F1AE262F020B0060964A /* ViewController.h */,
 				D5C0F1AF262F020B0060964A /* ViewController.m */,
-				D5C0F1B1262F020B0060964A /* Main.storyboard */,
+				D5C0F1E526302A580060964A /* Other stuff */,
 				D5C0F1B4262F02190060964A /* Assets.xcassets */,
-				D5C0F1B6262F02190060964A /* LaunchScreen.storyboard */,
 				D5C0F1B9262F02190060964A /* Info.plist */,
-				D5C0F1BA262F02190060964A /* main.m */,
 			);
 			path = lesson5_ObjC;
 			sourceTree = "<group>";
 		};
-		D5C0F1CA262F2DA00060964A /* Calculator */ = {
+		D5C0F1D3263017B60060964A /* Calculator */ = {
 			isa = PBXGroup;
 			children = (
-				D5C0F1CB262F2DB70060964A /* Calculator.h */,
-				D5C0F1CC262F2DB70060964A /* Calculator.m */,
+				D5C0F1D4263018720060964A /* Calculator.h */,
+				D5C0F1D5263018720060964A /* Calculator.m */,
 			);
 			path = Calculator;
+			sourceTree = "<group>";
+		};
+		D5C0F1D9263027E20060964A /* FlockOfBirds */ = {
+			isa = PBXGroup;
+			children = (
+				D5C0F1DC263028260060964A /* Flock */,
+				D5C0F1DB2630281C0060964A /* Eagle */,
+				D5C0F1DA263028080060964A /* Dove */,
+			);
+			path = FlockOfBirds;
+			sourceTree = "<group>";
+		};
+		D5C0F1DA263028080060964A /* Dove */ = {
+			isa = PBXGroup;
+			children = (
+				D5C0F1E1263028610060964A /* Dove.h */,
+				D5C0F1E2263028610060964A /* Dove.m */,
+			);
+			path = Dove;
+			sourceTree = "<group>";
+		};
+		D5C0F1DB2630281C0060964A /* Eagle */ = {
+			isa = PBXGroup;
+			children = (
+				D5C0F1DD263028570060964A /* Eagle.h */,
+				D5C0F1DE263028570060964A /* Eagle.m */,
+			);
+			path = Eagle;
+			sourceTree = "<group>";
+		};
+		D5C0F1DC263028260060964A /* Flock */ = {
+			isa = PBXGroup;
+			children = (
+				D5C0F1E726302AB80060964A /* Flock.h */,
+				D5C0F1E826302AB80060964A /* Flock.m */,
+			);
+			path = Flock;
+			sourceTree = "<group>";
+		};
+		D5C0F1E526302A580060964A /* Other stuff */ = {
+			isa = PBXGroup;
+			children = (
+				D5C0F1AB262F020B0060964A /* SceneDelegate.h */,
+				D5C0F1AC262F020B0060964A /* SceneDelegate.m */,
+				D5C0F1E626302A6C0060964A /* AppDelegate.m */,
+				D5C0F1A9262F020B0060964A /* AppDelegate.m */,
+				D5C0F1B6262F02190060964A /* LaunchScreen.storyboard */,
+				D5C0F1B1262F020B0060964A /* Main.storyboard */,
+				D5C0F1A8262F020B0060964A /* AppDelegate.h */,
+				D5C0F1BA262F02190060964A /* main.m */,
+			);
+			path = "Other stuff";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,11 +215,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5C0F1DF263028570060964A /* Eagle.m in Sources */,
+				D5C0F1E926302AB80060964A /* Flock.m in Sources */,
 				D5C0F1B0262F020B0060964A /* ViewController.m in Sources */,
 				D5C0F1AA262F020B0060964A /* AppDelegate.m in Sources */,
 				D5C0F1BB262F02190060964A /* main.m in Sources */,
+				D5C0F1E3263028610060964A /* Dove.m in Sources */,
 				D5C0F1AD262F020B0060964A /* SceneDelegate.m in Sources */,
-				D5C0F1CD262F2DB70060964A /* Calculator.m in Sources */,
+				D5C0F1D6263018720060964A /* Calculator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
